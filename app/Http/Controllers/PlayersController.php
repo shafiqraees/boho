@@ -29,7 +29,7 @@ class PlayersController extends Controller
             return $this->processCSV($players, 'players.csv');
         }
 
-        return view('players.player', [
+        return view('pages.player.datatables', [
             'players' =>  $players ,
             'games' => $ps->validGames(),
             'availableSizes' => $ps->availablePageSizes(),

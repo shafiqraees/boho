@@ -44,7 +44,6 @@
             class="aside-menu my-4 {{ Metronic::printClasses('demo_aside_menu', false) }}"
             data-menu-vertical="1"
             {{ Metronic::printAttrs('demo_aside_menu') }}>
-
             <ul class="menu-nav {{ Metronic::printClasses('aside_menu_nav', false) }}">
                 {{ Menu::renderVerMenu(config('demo_menu_aside.items')) }}
             </ul>

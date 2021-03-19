@@ -45,10 +45,10 @@ License: You must have a valid license purchased only from themeforest(the above
     <body {{ Metronic::printAttrs('body') }} {{ Metronic::printClasses('body') }}>
 
         @if (config('layout.page-loader.type') != '')
-            @include('layout.partials._page-loader')
+            @include('demo-layout.partials._page-loader')
         @endif
 
-        @include('layout.base._layout')
+        @include('demo-layout.base._layout')
 
         <script>var HOST_URL = "{{ route('quick-search') }}";</script>
 
