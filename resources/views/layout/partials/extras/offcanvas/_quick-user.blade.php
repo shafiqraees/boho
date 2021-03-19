@@ -1,9 +1,14 @@
+{{--
 @php
 	$direction = config('layout.extras.user.offcanvas.direction', 'right');
 @endphp
- {{-- User Panel --}}
+ --}}
+{{-- User Panel --}}{{--
+
 <div id="kt_quick_user" class="offcanvas offcanvas-{{ $direction }} p-10">
-	{{-- Header --}}
+	--}}
+{{-- Header --}}{{--
+
 	<div class="offcanvas-header d-flex align-items-center justify-content-between pb-5">
 		<h3 class="font-weight-bold m-0">
 			User Profile
@@ -14,9 +19,13 @@
 		</a>
 	</div>
 
-	{{-- Content --}}
+	--}}
+{{-- Content --}}{{--
+
     <div class="offcanvas-content pr-5 mr-n5">
-		{{-- Header --}}
+		--}}
+{{-- Header --}}{{--
+
         <div class="d-flex align-items-center mt-5">
             <div class="symbol symbol-100 mr-5">
                 <div class="symbol-label" style="background-image:url('{{ asset('media/users/300_21.jpg') }}')"></div>
@@ -42,12 +51,18 @@
             </div>
         </div>
 
-		{{-- Separator --}}
+		--}}
+{{-- Separator --}}{{--
+
 		<div class="separator separator-dashed mt-8 mb-5"></div>
 
-		{{-- Nav --}}
+		--}}
+{{-- Nav --}}{{--
+
 		<div class="navi navi-spacer-x-0 p-0">
-		    {{-- Item --}}
+		    --}}
+{{-- Item --}}{{--
+
 		    <a href="#" class="navi-item">
 		        <div class="navi-link">
 		            <div class="symbol symbol-40 bg-light mr-3">
@@ -67,7 +82,9 @@
 		        </div>
 		    </a>
 
-		    {{-- Item --}}
+		    --}}
+{{-- Item --}}{{--
+
 		    <a href="#"  class="navi-item">
 		        <div class="navi-link">
 					<div class="symbol symbol-40 bg-light mr-3">
@@ -86,7 +103,9 @@
 		        </div>
 		    </a>
 
-		    {{-- Item --}}
+		    --}}
+{{-- Item --}}{{--
+
 		    <a href="#"  class="navi-item">
 		        <div class="navi-link">
 					<div class="symbol symbol-40 bg-light mr-3">
@@ -105,7 +124,9 @@
 		        </div>
 		    </a>
 
-		    {{-- Item --}}
+		    --}}
+{{-- Item --}}{{--
+
 		    <a href="#" class="navi-item">
 		        <div class="navi-link">
 					<div class="symbol symbol-40 bg-light mr-3">
@@ -125,17 +146,25 @@
 		    </a>
 		</div>
 
-		{{-- Separator --}}
+		--}}
+{{-- Separator --}}{{--
+
 		<div class="separator separator-dashed my-7"></div>
 
-		{{-- Notifications --}}
+		--}}
+{{-- Notifications --}}{{--
+
 		<div>
-			{{-- Heading --}}
+			--}}
+{{-- Heading --}}{{--
+
         	<h5 class="mb-5">
             	Recent Notifications
         	</h5>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 	        <div class="d-flex align-items-center bg-light-warning rounded p-5 gutter-b">
 	            <span class="svg-icon svg-icon-warning mr-5">
 	                {{ Metronic::getSVG("media/svg/icons/Home/Library.svg", "svg-icon-lg") }}
@@ -149,7 +178,9 @@
 	            <span class="font-weight-bolder text-warning py-1 font-size-lg">+28%</span>
 	        </div>
 
-	        {{-- Item --}}
+	        --}}
+{{-- Item --}}{{--
+
 	        <div class="d-flex align-items-center bg-light-success rounded p-5 gutter-b">
 	            <span class="svg-icon svg-icon-success mr-5">
 	                {{ Metronic::getSVG("media/svg/icons/Communication/Write.svg", "svg-icon-lg") }}
@@ -162,7 +193,9 @@
 	            <span class="font-weight-bolder text-success py-1 font-size-lg">+50%</span>
 	        </div>
 
-	        {{-- Item --}}
+	        --}}
+{{-- Item --}}{{--
+
 	        <div class="d-flex align-items-center bg-light-danger rounded p-5 gutter-b">
 	            <span class="svg-icon svg-icon-danger mr-5">
 	                {{ Metronic::getSVG("media/svg/icons/Communication/Group-chat.svg", "svg-icon-lg") }}
@@ -175,7 +208,9 @@
 	            <span class="font-weight-bolder text-danger py-1 font-size-lg">-27%</span>
 	        </div>
 
-	        {{-- Item --}}
+	        --}}
+{{-- Item --}}{{--
+
 	        <div class="d-flex align-items-center bg-light-info rounded p-5">
 	            <span class="svg-icon svg-icon-info mr-5">
 	                {{ Metronic::getSVG("media/svg/icons/General/Attachment2.svg", "svg-icon-lg") }}
@@ -191,3 +226,4 @@
 		</div>
     </div>
 </div>
+--}}

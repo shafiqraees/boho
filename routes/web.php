@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StatsController;
+use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PlayersController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,10 +17,13 @@ use App\Http\Controllers\StatsController;
 
 Route::get('/', 'PagesController@index');
 Route::get('stats', [StatsController::class, 'stats']);
+Route::get('/', [PagesController::class,'index']);
+Route::get('/demo', [PagesController::class,'demo']);
 
 
 // Demo routes
-Route::get('/datatables', 'PagesController@datatables');
+//Route::get('/datatables', 'PagesController@datatables');
+Route::get('/players', [PlayersController::class,'player']);
 Route::get('/ktdatatables', 'PagesController@ktDatatables');
 Route::get('/select2', 'PagesController@select2');
 Route::get('/jquerymask', 'PagesController@jQueryMask');

@@ -1,9 +1,14 @@
+{{--
 @php
 	$direction = config('layout.extras.notifications.offcanvas.direction', 'right');
 @endphp
- {{-- Notifications Panel --}}
+ --}}
+{{-- Notifications Panel --}}{{--
+
 <div id="kt_quick_notifications" class="offcanvas offcanvas-{{ $direction }} p-10">
-	{{-- Header --}}
+	--}}
+{{-- Header --}}{{--
+
 	<div class="offcanvas-header d-flex align-items-center justify-content-between mb-10">
 		<h3 class="font-weight-bold m-0">
 			Notifications
@@ -14,11 +19,17 @@
 		</a>
 	</div>
 
-	{{-- Content --}}
+	--}}
+{{-- Content --}}{{--
+
 	<div class="offcanvas-content pr-5 mr-n5">
-		{{-- Nav --}}
+		--}}
+{{-- Nav --}}{{--
+
 		<div class="navi navi-icon-circle navi-spacer-x-0">
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -35,7 +46,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -52,7 +65,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -69,7 +84,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -86,7 +103,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -103,7 +122,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -120,7 +141,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -137,7 +160,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -154,7 +179,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -171,7 +198,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -188,7 +217,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -205,7 +236,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -222,7 +255,9 @@
 				</div>
 			</a>
 
-			{{-- Item --}}
+			--}}
+{{-- Item --}}{{--
+
 			<a href="#" class="navi-item">
 				<div class="navi-link rounded">
 					<div class="symbol symbol-50 symbol-circle mr-3">
@@ -241,3 +276,4 @@
 		</div>
 	</div>
 </div>
+--}}

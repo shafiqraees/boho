@@ -1,10 +1,15 @@
+{{--
 <div class="quick-search-result">
-    {{-- Message --}}
+    --}}
+{{-- Message --}}{{--
+
     <div class="text-muted d-none">
         No record found
     </div>
 
-    {{-- Section --}}
+    --}}
+{{-- Section --}}{{--
+
     <div class="font-size-sm text-primary font-weight-bolder text-uppercase mb-2">
         Documents
     </div>
@@ -63,7 +68,9 @@
         </div>
     </div>
 
-    {{-- Section --}}
+    --}}
+{{-- Section --}}{{--
+
     <div class="font-size-sm text-primary font-weight-bolder text-uppercase mb-2">
         Members
     </div>
@@ -122,7 +129,9 @@
         </div>
     </div>
 
-    {{-- Section --}}
+    --}}
+{{-- Section --}}{{--
+
     <div class="font-size-sm text-primary font-weight-bolder text-uppercase mb-2">
         Files
     </div>
@@ -189,3 +198,4 @@
         </div>
     </div>
 </div>
+--}}

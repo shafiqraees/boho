@@ -1,20 +1,26 @@
-{{-- Chat --}}
+{{--
+ Chat
+
 
 <div class="modal modal-sticky modal-sticky-bottom-right" id="kt_chat_modal" role="dialog" data-backdrop="false">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            {{-- Card --}}
+ Card
+
             <div class="card card-custom">
-                {{-- Header --}}
+ Header
+
                 <div class="card-header align-items-center px-4 py-3">
                     <div class="text-left flex-grow-1">
-                        {{-- Dropdown Menu  --}}
+ Dropdown Menu
+
                         <div class="dropdown dropdown-inline">
                             <button type="button" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{ Metronic::getSVG("media/svg/icons/Communication/Add-user.svg", "svg-icon-lg") }}
                             </button>
                             <div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-md">
-                                {{-- Navigation--}}
+ Navigation
+
                                 <ul class="navi navi-hover py-5">
                                     <li class="navi-item">
                                         <a href="#" class="navi-link">
@@ -82,13 +88,17 @@
                     </div>
                 </div>
 
-                {{-- Body --}}
+ Body
+
                 <div class="card-body">
-                    {{-- Scroll --}}
+ Scroll
+
                     <div class="scroll scroll-pull" data-height="400" data-mobile-height="350">
-                        {{-- Messages --}}
+ Messages
+
                         <div class="messages">
-                            {{-- Message In --}}
+ Message In
+
                             <div class="d-flex flex-column mb-5 align-items-start">
                                 <div class="d-flex align-items-center">
                                     <div class="symbol symbol-circle symbol-40 mr-3">
@@ -105,7 +115,8 @@
                                 </div>
                             </div>
 
-                            {{-- Message Out --}}
+ Message Out
+
                             <div class="d-flex flex-column mb-5 align-items-end">
                                 <div class="d-flex align-items-center">
                                     <div>
@@ -122,7 +133,8 @@
                                 </div>
                             </div>
 
-                            {{-- Message In --}}
+ Message In
+
                             <div class="d-flex flex-column mb-5 align-items-start">
                                 <div class="d-flex align-items-center">
                                     <div class="symbol symbol-circle symbol-40 mr-3">
@@ -138,7 +150,8 @@
                                 </div>
                             </div>
 
-                            {{-- Message Out --}}
+ Message Out
+
                             <div class="d-flex flex-column mb-5 align-items-end">
                                 <div class="d-flex align-items-center">
                                     <div>
@@ -154,7 +167,8 @@
                                 </div>
                             </div>
 
-                            {{-- Message In --}}
+ Message In
+
                             <div class="d-flex flex-column mb-5 align-items-start">
                                 <div class="d-flex align-items-center">
                                     <div class="symbol symbol-circle symbol-40 mr-3">
@@ -170,7 +184,8 @@
                                 </div>
                             </div>
 
-                            {{-- Message Out --}}
+ Message Out
+
                             <div class="d-flex flex-column mb-5 align-items-end">
                                 <div class="d-flex align-items-center">
                                     <div>
@@ -186,7 +201,8 @@
                                 </div>
                             </div>
 
-                            {{-- Message In --}}
+ Message In
+
                             <div class="d-flex flex-column mb-5 align-items-start">
                                 <div class="d-flex align-items-center">
                                     <div class="symbol symbol-circle symbol-40 mr-3">
@@ -202,7 +218,8 @@
                                 </div>
                             </div>
 
-                            {{-- Message Out --}}
+ Message Out
+
                             <div class="d-flex flex-column mb-5 align-items-end">
                                 <div class="d-flex align-items-center">
                                     <div>
@@ -221,9 +238,11 @@
                     </div>
                 </div>
 
-                {{-- Footer --}}
+ Footer
+
                 <div class="card-footer align-items-center">
-                    {{-- Compose --}}
+ Compose
+
                     <textarea class="form-control border-0 p-0" rows="2" placeholder="Type a message"></textarea>
                     <div class="d-flex align-items-center justify-content-between mt-5">
                         <div class="mr-3">
@@ -234,9 +253,11 @@
                             <button type="button" class="btn btn-primary btn-md text-uppercase font-weight-bold chat-send py-2 px-6">Send</button>
                         </div>
                     </div>
-                    {{-- Compose --}}
+ Compose
+
                 </div>
             </div>
         </div>
     </div>
 </div>
+--}}

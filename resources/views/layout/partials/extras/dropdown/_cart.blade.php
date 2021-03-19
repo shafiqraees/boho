@@ -1,5 +1,8 @@
+{{--
 @if (config('layout.extras.cart.dropdown.style') == 'light')
-    {{-- Header --}}
+    --}}
+{{-- Header --}}{{--
+
     <div class="d-flex align-items-center p-10 rounded-top bg-light">
         <span class="btn btn-md btn-icon bg-light-success mr-4">
             <i class="flaticon2-shopping-cart-1 text-success"></i>
@@ -8,7 +11,9 @@
         <button type="button" class="btn btn-success btn-sm">2 Items</button>
     </div>
 @else
-    {{-- Header --}}
+    --}}
+{{-- Header --}}{{--
+
     <div class="d-flex align-items-center py-10 px-8 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url('{{ asset('media/misc/bg-1.jpg') }}')">
         <span class="btn btn-md btn-icon bg-white-o-15 mr-4">
             <i class="flaticon2-shopping-cart-1 text-success"></i>
@@ -18,9 +23,13 @@
     </div>
 @endif
 
-{{-- Scroll --}}
+--}}
+{{-- Scroll --}}{{--
+
 <div class="scroll scroll-push" data-scroll="true" data-height="250" data-mobile-height="200">
-    {{-- Item --}}
+    --}}
+{{-- Item --}}{{--
+
     <div class="d-flex align-items-center justify-content-between p-8">
         <div class="d-flex flex-column mr-2">
             <a href="#" class="font-weight-bold text-dark-75 font-size-lg text-hover-primary">
@@ -42,10 +51,14 @@
         </a>
     </div>
 
-    {{-- Separator --}}
+    --}}
+{{-- Separator --}}{{--
+
     <div class="separator separator-solid"></div>
 
-    {{-- Item --}}
+    --}}
+{{-- Item --}}{{--
+
     <div class="d-flex align-items-center justify-content-between p-8">
         <div class="d-flex flex-column mr-2">
             <a href="#" class="font-weight-bold text-dark-75 font-size-lg text-hover-primary">
@@ -67,10 +80,14 @@
         </a>
     </div>
 
-    {{-- Separator --}}
+    --}}
+{{-- Separator --}}{{--
+
     <div class="separator separator-solid"></div>
 
-    {{-- Item --}}
+    --}}
+{{-- Item --}}{{--
+
     <div class="d-flex align-items-center justify-content-between p-8">
         <div class="d-flex flex-column mr-2">
             <a href="#" class="font-weight-bold text-dark-75 font-size-lg text-hover-primary">
@@ -93,10 +110,14 @@
         </a>
     </div>
 
-    {{-- Separator --}}
+    --}}
+{{-- Separator --}}{{--
+
     <div class="separator separator-solid"></div>
 
-    {{-- Item --}}
+    --}}
+{{-- Item --}}{{--
+
     <div class="d-flex align-items-center justify-content-between p-8">
         <div class="d-flex flex-column mr-2">
             <a href="#" class="font-weight-bold text-dark icon-sm text-hover-primary">
@@ -119,7 +140,9 @@
     </div>
 </div>
 
-{{-- Summary --}}
+--}}
+{{-- Summary --}}{{--
+
 <div class="p-8">
     <div class="d-flex align-items-center justify-content-between mb-4">
         <span class="font-weight-bold text-muted font-size-sm mr-2">Total</span>
@@ -133,3 +156,4 @@
         <button type="button" class="btn btn-primary text-weight-bold">Place Order</button>
     </div>
 </div>
+--}}
