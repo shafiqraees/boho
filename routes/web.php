@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\StatsController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PlayersController;
 /*
@@ -14,6 +15,8 @@ use App\Http\Controllers\PlayersController;
 |
 */
 
+Route::get('/', 'PagesController@index');
+Route::get('stats', [StatsController::class, 'stats']);
 Route::get('/', [PagesController::class,'index']);
 Route::get('/demo', [PagesController::class,'demo']);
 
