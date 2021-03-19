@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 use App\Search\PlayerSearch;
 use App\Search\PrizesSearch;
 use App\Search\StatSearch;
-use Illuminate\Support\Collection;
-use App\User;
+use Yajra\DataTables\DataTables;
+use function GuzzleHttp\Promise\all;
 
 class PlayersController extends Controller
 {
@@ -19,16 +19,18 @@ class PlayersController extends Controller
         $ps = new PlayerSearch($request->all());
 
         $result = $ps->search();
-
         $data = $result ? json_decode($result, true) : [];
 
         $players = isset( $data['players']) ? $data['players'] : [];
 
-
         if($request->get('CSV') === 'YES'){
             return $this->processCSV($players, 'players.csv');
         }
-
+        if ($request->ajax()) {
+            return Datatables::of($players)
+                ->addIndexColumn()
+                ->make(true);
+        }
         return view('pages.player.datatables', [
             'players' =>  $players ,
             'games' => $ps->validGames(),
