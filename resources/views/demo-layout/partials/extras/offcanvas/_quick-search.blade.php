@@ -1,15 +1,10 @@
-{{--
 @php
     $direction = config('layout.extras.search.offcanvas.direction', 'right');
 @endphp
---}}
-{{-- Search Panel --}}{{--
-
+{{-- Search Panel --}}
 <div id="kt_quick_search" class="offcanvas offcanvas-{{ $direction }} p-10">
 
-    --}}
-{{-- Header --}}{{--
-
+    {{-- Header --}}
     <div class="offcanvas-header d-flex align-items-center justify-content-between mb-5">
         <h3 class="font-weight-bold m-0">
             Search
@@ -20,17 +15,11 @@
         </a>
     </div>
 
-    --}}
-{{-- Content --}}{{--
-
+    {{-- Content --}}
     <div class="offcanvas-content">
-        --}}
-{{-- Container --}}{{--
-
+        {{-- Container --}}
         <div class="quick-search quick-search-offcanvas quick-search-has-result" id="kt_quick_search_offcanvas">
-            --}}
-{{-- Form --}}{{--
-
+            {{-- Form --}}
             <form method="get" class="quick-search-form border-bottom pt-5 pb-1">
                 <div class="input-group">
                     <div class="input-group-prepend">
@@ -47,28 +36,20 @@
                 </div>
             </form>
 
-            --}}
-{{-- Wrapper --}}{{--
-
+            {{-- Wrapper --}}
             <div class="quick-search-wrapper pt-5">
                 <div class="quick-search-result">
-                    --}}
-{{-- Message --}}{{--
-
+                    {{-- Message --}}
                     <div class="text-muted d-none">
                         No record found
                     </div>
 
-                    --}}
-{{-- Section --}}{{--
-
+                    {{-- Section --}}
                     <div class="font-size-sm text-primary font-weight-bolder text-uppercase mb-2">
                         Documents
                     </div>
                     <div class="mb-10">
-                        --}}
-{{-- Item --}}{{--
-
+                        {{-- Item --}}
                         <div class="d-flex align-items-center flex-grow-1 mb-2">
                             <div class="symbol symbol-30 bg-transparent flex-shrink-0">
                                 <img src="{{ asset('media/svg/files/doc.svg') }}" alt=""/>
@@ -83,9 +64,7 @@
                             </div>
                         </div>
 
-                        --}}
-{{-- Item --}}{{--
-
+                        {{-- Item --}}
                         <div class="d-flex align-items-center flex-grow-1 mb-2">
                             <div class="symbol symbol-30 bg-transparent flex-shrink-0">
                                 <img src="{{ asset('media/svg/files/pdf.svg') }}" alt=""/>
@@ -100,9 +79,7 @@
                             </div>
                         </div>
 
-                        --}}
-{{-- Item --}}{{--
-
+                        {{-- Item --}}
                         <div class="d-flex align-items-center flex-grow-1 mb-2">
                             <div class="symbol symbol-30 bg-transparent flex-shrink-0">
                                 <img src="{{ asset('media/svg/files/xml.svg') }}" alt=""/>
@@ -117,9 +94,7 @@
                             </div>
                         </div>
 
-                        --}}
-{{-- Item --}}{{--
-
+                        {{-- Item --}}
                         <div class="d-flex align-items-center flex-grow-1 mb-2">
                             <div class="symbol symbol-30 bg-transparent flex-shrink-0">
                                 <img src="{{ asset('media/svg/files/csv.svg') }}" alt=""/>
@@ -135,9 +110,7 @@
                         </div>
                     </div>
 
-                    --}}
-{{-- Section --}}{{--
-
+                    {{-- Section --}}
                     <div class="font-size-sm text-primary font-weight-bolder text-uppercase mb-2">
                         Members
                     </div>
@@ -196,9 +169,7 @@
                         </div>
                     </div>
 
-                    --}}
-{{-- Section --}}{{--
-
+                    {{-- Section --}}
                     <div class="font-size-sm text-primary font-weight-bolder text-uppercase mb-2">
                         Files
                     </div>
@@ -269,4 +240,3 @@
         </div>
     </div>
 </div>
---}}

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PagesController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,11 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'PagesController@index');
+Route::get('/', [PagesController::class,'index']);
+Route::get('/demo', [PagesController::class,'demo']);
 
 
 // Demo routes
-Route::get('/datatables', 'PagesController@datatables');
+//Route::get('/datatables', 'PagesController@datatables');
+Route::get('/players', [PagesController::class,'datatables']);
 Route::get('/ktdatatables', 'PagesController@ktDatatables');
 Route::get('/select2', 'PagesController@select2');
 Route::get('/jquerymask', 'PagesController@jQueryMask');

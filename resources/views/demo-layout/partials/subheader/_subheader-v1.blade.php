@@ -1,17 +1,12 @@
-{{-- Subheader V1 --}}{{--
-
+{{-- Subheader V1 --}}
 
 <div class="subheader py-2 {{ Metronic::printClasses('subheader', false) }}" id="kt_subheader">
     <div class="{{ Metronic::printClasses('subheader-container', false) }} d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
 
-		--}}
-{{-- Info --}}{{--
-
+		{{-- Info --}}
         <div class="d-flex align-items-center flex-wrap mr-1">
 
-			--}}
-{{-- Page Title --}}{{--
-
+			{{-- Page Title --}}
             <h5 class="text-dark font-weight-bold my-2 mr-5">
                 {{ @$page_title }}
 
@@ -21,14 +16,10 @@
             </h5>
 
             @if (!empty($page_breadcrumbs))
-				--}}
-{{-- Separator --}}{{--
-
+				{{-- Separator --}}
                 <div class="subheader-separator subheader-separator-ver my-2 mr-4 d-none"></div>
 
-				--}}
-{{-- Breadcrumb --}}{{--
-
+				{{-- Breadcrumb --}}
                 <ul class="breadcrumb breadcrumb-transparent breadcrumb-dot font-weight-bold p-0 my-2">
                     <li class="breadcrumb-item"><a href="#"><i class="flaticon2-shelter text-muted icon-1x"></i></a></li>
                     @foreach ($page_breadcrumbs as $k => $item)
@@ -42,9 +33,7 @@
             @endif
         </div>
 
-		--}}
-{{-- Toolbar --}}{{--
-
+		{{-- Toolbar --}}
         <div class="d-flex align-items-center">
 
             @hasSection('page_toolbar')
@@ -56,9 +45,7 @@
                     {{ Metronic::getSVG("media/svg/icons/Files/File-plus.svg", "svg-icon-success svg-icon-2x") }}
                 </a>
                 <div class="dropdown-menu p-0 m-0 dropdown-menu-md dropdown-menu-right">
-                    --}}
-{{-- Navigation --}}{{--
-
+                    {{-- Navigation --}}
                     <ul class="navi navi-hover">
                         <li class="navi-header font-weight-bold">
                             Jump to:
@@ -104,4 +91,3 @@
 
     </div>
 </div>
---}}

@@ -1,14 +1,9 @@
-{{--
 @php
 	$direction = config('layout.extras.quick-panel.offcanvas.direction', 'right');
 @endphp
---}}
-{{-- Quick Panel --}}{{--
-
+{{-- Quick Panel --}}
 <div id="kt_quick_panel" class="offcanvas offcanvas-{{ $direction }} pt-5 pb-10">
-	--}}
-{{-- Header --}}{{--
-
+	{{-- Header --}}
 	<div class="offcanvas-header offcanvas-header-navs d-flex align-items-center justify-content-between mb-5">
 		<ul class="nav nav-bold nav-tabs nav-tabs-line nav-tabs-line-3x nav-tabs-primary flex-grow-1 px-10" role="tablist">
 			<li class="nav-item">
@@ -29,23 +24,15 @@
 		</div>
 	</div>
 
-	--}}
-{{-- Content --}}{{--
-
+	{{-- Content --}}
 	<div class="offcanvas-content px-10">
 		<div class="tab-content">
-			--}}
-{{-- Tabpane --}}{{--
-
+			{{-- Tabpane --}}
 			<div class="tab-pane fade show pt-3 pr-5 mr-n5 active" id="kt_quick_panel_logs" role="tabpanel">
-				--}}
-{{-- Section --}}{{--
-
+				{{-- Section --}}
 				<div class="mb-15">
 					<h5 class="font-weight-bold mb-5">System Messages</h5>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<div class="d-flex align-items-center flex-wrap mb-5">
 						<div class="symbol symbol-50 symbol-light mr-5">
 							<span class="symbol-label">
@@ -59,9 +46,7 @@
 						<span class="btn btn-sm btn-light font-weight-bolder py-1 my-lg-0 my-2 text-dark-50">+82$</span>
 					</div>
 
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<div class="d-flex align-items-center flex-wrap mb-5">
 						<div class="symbol symbol-50 symbol-light mr-5">
 							<span class="symbol-label">
@@ -75,9 +60,7 @@
 						<span class="btn btn-sm btn-light font-weight-bolder  my-lg-0 my-2 py-1 text-dark-50">+280$</span>
 					</div>
 
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<div class="d-flex align-items-center flex-wrap mb-5">
 						<div class="symbol symbol-50 symbol-light mr-5">
 							<span class="symbol-label">
@@ -91,9 +74,7 @@
 						<span class="btn btn-sm btn-light font-weight-bolder  my-lg-0 my-2 py-1 text-dark-50">+4500$</span>
 					</div>
 
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<div class="d-flex align-items-center flex-wrap mb-5">
 						<div class="symbol symbol-50 symbol-light mr-5">
 							<span class="symbol-label">
@@ -107,9 +88,7 @@
 						<span class="btn btn-sm btn-light font-weight-bolder my-lg-0 my-2 py-1 text-dark-50">+4500$</span>
 					</div>
 
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<div class="d-flex align-items-center flex-wrap">
 						<div class="symbol symbol-50 symbol-light mr-5">
 							<span class="symbol-label">
@@ -124,15 +103,11 @@
 					</div>
 				</div>
 
-				--}}
-{{-- Section --}}{{--
-
+				{{-- Section --}}
 				<div class="mb-5">
 					<h5 class="font-weight-bold mb-5">Notifications</h5>
 
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 			        <div class="d-flex align-items-center bg-light-warning rounded p-5 mb-5">
 			            <span class="svg-icon svg-icon-warning mr-5">
 			                {{ Metronic::getSVG("media/svg/icons/Home/Library.svg", "svg-icon-lg") }}
@@ -146,9 +121,7 @@
 			            <span class="font-weight-bolder text-warning py-1 font-size-lg">+28%</span>
 			        </div>
 
-			        --}}
-{{-- Item --}}{{--
-
+			        {{-- Item --}}
 			        <div class="d-flex align-items-center bg-light-success rounded p-5 mb-5">
 			            <span class="svg-icon svg-icon-success mr-5">
 			                {{ Metronic::getSVG("media/svg/icons/Communication/Write.svg", "svg-icon-lg") }}
@@ -161,9 +134,7 @@
 			            <span class="font-weight-bolder text-success py-1 font-size-lg">+50%</span>
 			        </div>
 
-			        --}}
-{{-- Item --}}{{--
-
+			        {{-- Item --}}
 			        <div class="d-flex align-items-center bg-light-danger rounded p-5 mb-5">
 			            <span class="svg-icon svg-icon-danger mr-5">
 			                {{ Metronic::getSVG("media/svg/icons/Communication/Group-chat.svg", "svg-icon-lg") }}
@@ -176,9 +147,7 @@
 			            <span class="font-weight-bolder text-danger py-1 font-size-lg">-27%</span>
 			        </div>
 
-			        --}}
-{{-- Item --}}{{--
-
+			        {{-- Item --}}
 			        <div class="d-flex align-items-center bg-light-info rounded p-5">
 			            <span class="svg-icon svg-icon-info mr-5">
 			                {{ Metronic::getSVG("media/svg/icons/General/Attachment2.svg", "svg-icon-lg") }}
@@ -195,17 +164,11 @@
 
 			</div>
 
-			--}}
-{{-- Tabpane --}}{{--
-
+			{{-- Tabpane --}}
 			<div class="tab-pane fade pt-2 pr-5 mr-n5" id="kt_quick_panel_notifications" role="tabpanel">
-				--}}
-{{-- Nav --}}{{--
-
+				{{-- Nav --}}
 				<div class="navi navi-icon-circle navi-spacer-x-0">
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -221,9 +184,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -239,9 +200,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -257,9 +216,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -275,9 +232,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -293,9 +248,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -311,9 +264,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -329,9 +280,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -347,9 +296,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -365,9 +312,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -383,9 +328,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -401,9 +344,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -419,9 +360,7 @@
 							</div>
 						</div>
 					</a>
-					--}}
-{{-- Item --}}{{--
-
+					{{-- Item --}}
 					<a href="#" class="navi-item">
 						<div class="navi-link rounded">
 							<div class="symbol symbol-50 mr-3">
@@ -440,14 +379,10 @@
 				</div>
 			</div>
 
-			--}}
-{{-- Tabpane --}}{{--
-
+			{{-- Tabpane --}}
 			<div class="tab-pane fade pt-3 pr-5 mr-n5" id="kt_quick_panel_settings" role="tabpanel">
 				<form class="form">
-					--}}
-{{-- Section --}}{{--
-
+					{{-- Section --}}
 					<div>
 						<h5 class="font-weight-bold mb-3">Customer Care</h5>
 						<div class="form-group mb-0 row">
@@ -487,9 +422,7 @@
 
 					<div class="separator separator-dashed my-6"></div>
 
-					--}}
-{{-- Section --}}{{--
-
+					{{-- Section --}}
 					<div class="pt-2">
 						<h5 class="font-weight-bold mb-3">Reports</h5>
 						<div class="form-group mb-0 row">
@@ -529,9 +462,7 @@
 
 					<div class="separator separator-dashed my-6"></div>
 
-					--}}
-{{-- Section --}}{{--
-
+					{{-- Section --}}
 					<div class="pt-2">
 						<h5 class="font-weight-bold mb-3">Memebers</h5>
 						<div class="form-group mb-0 row">
@@ -573,4 +504,3 @@
 		</div>
 	</div>
 </div>
---}}

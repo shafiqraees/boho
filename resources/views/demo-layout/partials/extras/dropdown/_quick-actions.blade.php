@@ -1,5 +1,4 @@
-{{-- Header --}}{{--
-
+{{-- Header --}}
 @if (config('layout.extras.quick-actions.dropdown.style') == 'light')
     <div class="d-flex flex-column flex-center py-10 bg-dark-o-5 rounded-top bg-light">
         <h4 class="text-dark font-weight-bold">
@@ -16,13 +15,9 @@
     </div>
 @endif
 
---}}
-{{-- Nav --}}{{--
-
+{{-- Nav --}}
 <div class="row row-paddingless">
-    --}}
-{{-- Item --}}{{--
-
+    {{-- Item --}}
     <div class="col-6">
         <a href="#" class="d-block py-10 px-5 text-center bg-hover-light border-right border-bottom">
             {{ Metronic::getSVG("media/svg/icons/Shopping/Euro.svg", "svg-icon-3x svg-icon-success") }}
@@ -31,9 +26,7 @@
         </a>
     </div>
 
-    --}}
-{{-- Item --}}{{--
-
+    {{-- Item --}}
     <div class="col-6">
         <a href="#" class="d-block py-10 px-5 text-center bg-hover-light border-bottom">
             {{ Metronic::getSVG("media/svg/icons/Communication/Mail-attachment.svg", "svg-icon-3x svg-icon-success") }}
@@ -42,9 +35,7 @@
         </a>
     </div>
 
-    --}}
-{{-- Item --}}{{--
-
+    {{-- Item --}}
     <div class="col-6">
         <a href="#" class="d-block py-10 px-5 text-center bg-hover-light border-right">
             {{ Metronic::getSVG("media/svg/icons/Shopping/Box2.svg", "svg-icon-3x svg-icon-success") }}
@@ -53,9 +44,7 @@
         </a>
     </div>
 
-    --}}
-{{-- Item --}}{{--
-
+    {{-- Item --}}
     <div class="col-6">
         <a href="#" class="d-block py-10 px-5 text-center bg-hover-light">
             {{ Metronic::getSVG("media/svg/icons/Communication/Group.svg", "svg-icon-3x svg-icon-success") }}
@@ -64,4 +53,3 @@
         </a>
     </div>
 </div>
---}}
