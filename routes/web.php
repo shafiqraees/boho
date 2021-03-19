@@ -16,7 +16,7 @@ use App\Http\Controllers\PlayersController;
 */
 
 Route::get('/', 'PagesController@index');
-Route::get('stats', [StatsController::class, 'stats']);
+Route::get('/stats', [StatsController::class, 'stats']);
 Route::get('/', [PagesController::class,'index']);
 Route::get('/demo', [PagesController::class,'demo']);
 
