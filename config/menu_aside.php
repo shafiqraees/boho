@@ -16,7 +16,7 @@ return [
             'title' => 'Players',
             'root' => false,
             'icon' => 'media/svg/icons/Layout/Layout-4-blocks.svg', // or can be 'flaticon-home' or any flaticon-*
-            'page' => '/',
+            'page' => '/players',
             'new-tab' => false,
         ],
 

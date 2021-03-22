@@ -6,8 +6,8 @@
     <div class="card card-custom">
         <div class="card-header flex-wrap border-0 pt-6 pb-0">
             <div class="card-title">
-                <h3 class="card-label">HTML Table
-                    <div class="text-muted pt-2 font-size-sm">Datatable initialized from HTML table</div>
+                <h3 class="card-label">Players
+                    {{--<div class="text-muted pt-2 font-size-sm">Datatable initialized from HTML table</div>--}}
                 </h3>
             </div>
         </div>
@@ -54,6 +54,12 @@
                             Search
                         </a>--}}
                         <button type="submit" class="btn btn-light-primary px-6 font-weight-bold">Search</button>
+                    </div>
+                    <div class="col-lg-3 col-xl-4 mt-5 mt-lg-0 alig">
+                        {{--<a href="#" class="btn btn-light-primary px-6 font-weight-bold">
+                            Search
+                        </a>--}}
+                        <button type="cancell" class="btn btn-light-primary px-6 font-weight-bold pull-right" id="export">Export</button>
                     </div>
                 </div>
             </div>
@@ -161,7 +167,8 @@
                     {data: 'email', name: 'email', searchable: true},
                     {data: 'optin', name: 'optin', searchable: true},
                     {data: 'timestamp', name: 'timestamp', searchable: true}
-                ]
+                ],
+                "order": [[ 1, 'desc' ]]
             });
             $('#search-form').on('submit', function(e) {
                 otable.draw();
@@ -178,7 +185,6 @@
                 offset = a;
                 otable.draw();
                 e.preventDefault();
-                alert(a);
             });
 
             $('#subs').click(function subst() {
@@ -197,6 +203,25 @@
             });
 
         });
-
+        $('#export').on('click', function(e) {
+            alert('sp_clean_db_free_space');
+            e.preventDefault();
+            var size = $('#kt_datatable_search_type').val();
+            var game = $('#kt_datatable_search_status').val();
+            var offset = $('#noOfRoom').val();
+            document.location.href = '/csv?size='+size+'&game='+game+'&offset='+offset;
+            //window.location.replace(window.location.pathname)
+            /*$.ajax({
+                url: "{{ route('csv') }}",
+                type: 'get',
+                data: {size:size, game:game, offset:offset},
+                //dataType: 'text',
+                success: function(result) {
+                    console.log(result);
+                    /!*var uri = 'data:application/csv;charset=UTF-8,' + encodeURIComponent(result);
+                    window.open(uri, 'tiketi.csv');*!/
+                }
+            });*/
+        });
     </script>
 @endsection

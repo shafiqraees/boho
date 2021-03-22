@@ -24,6 +24,7 @@ Route::get('/demo', [PagesController::class,'demo']);
 // Demo routes
 //Route::get('/datatables', 'PagesController@datatables');
 Route::get('/players', [PlayersController::class,'player'])->name('player');
+Route::get('/csv', [PlayersController::class,'generateCsv'])->name('csv');
 Route::get('/ktdatatables', 'PagesController@ktDatatables');
 Route::get('/select2', 'PagesController@select2');
 Route::get('/jquerymask', 'PagesController@jQueryMask');

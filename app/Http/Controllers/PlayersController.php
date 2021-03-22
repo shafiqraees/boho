@@ -27,8 +27,14 @@ class PlayersController extends Controller
         }
         if ($request->ajax()) {
             return Datatables::of($players)
+                /*->editColumn('timestamp', function ($request) {
+                    //return $request->timestamp->format('Y-m-d H:i'); // human readable format
+                    return date('Y-m-d H:i', strtotime($request->timestamp) );
+                })*/
                 ->addIndexColumn()
+
                 ->make(true);
+
         }
         return view('pages.player.datatables', [
             'players' => $players,
@@ -40,6 +46,19 @@ class PlayersController extends Controller
             'next' => $ps->nextPage(count($players)),
         ]);
 
+    }
+
+    public function generateCsv(Request $request)
+    {
+
+        $ps = new PlayerSearch($request->all());
+
+        $result = $ps->search();
+        $data = $result ? json_decode($result, true) : [];
+
+        $players = isset($data['players']) ? $data['players'] : [];
+
+        return $this->processCSV($players, 'players.csv');
     }
 
 
