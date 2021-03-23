@@ -171,6 +171,8 @@
                 "order": [[ 1, 'desc' ]]
             });
             $('#search-form').on('submit', function(e) {
+                size = $('#kt_datatable_search_type').val();
+                game = $('#kt_datatable_search_status').val();
                 otable.draw();
                 e.preventDefault();
             });

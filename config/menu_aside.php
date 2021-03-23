@@ -27,6 +27,14 @@ return [
             'page' => '/stats',
             'new-tab' => false,
         ],
+        [
+            'title' => 'users',
+            'icon' => 'media/svg/icons/Layout/Layout-left-panel-2.svg',
+            'bullet' => 'dot',
+            'page' => '/users',
+            'root' => false,
+            'new-tab' => false,
+        ],
         // Custom
 
     ]

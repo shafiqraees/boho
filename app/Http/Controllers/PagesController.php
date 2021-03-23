@@ -49,6 +49,7 @@ class PagesController extends Controller
     // Select2
     public function select2()
     {
+
         $page_title = 'Select 2';
         $page_description = 'This is Select2 test page';
 

@@ -15,6 +15,7 @@ class PlayersController extends Controller
 
     public function player(Request $request)
     {
+        //dd(date("Y-m-d H:i:s", 1616484368884));
         $ps = new PlayerSearch($request->all());
 
         $result = $ps->search();
@@ -27,10 +28,7 @@ class PlayersController extends Controller
         }
         if ($request->ajax()) {
             return Datatables::of($players)
-                /*->editColumn('timestamp', function ($request) {
-                    //return $request->timestamp->format('Y-m-d H:i'); // human readable format
-                    return date('Y-m-d H:i', strtotime($request->timestamp) );
-                })*/
+
                 ->addIndexColumn()
 
                 ->make(true);

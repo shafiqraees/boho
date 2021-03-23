@@ -335,12 +335,6 @@
         }, {
             "country": "Best Score",
             "litres": {{ isset($data['bestScore']) ? $data['bestScore'] : 0 }}
-        }, {
-            "country": "Session Time",
-            "litres": {{ isset($data['sessionTime']) ? $data['sessionTime'] : 0 }}
-        }, {
-            "country": "Score",
-            "litres": {{ isset($data['score']) ? $data['score'] : 0 }}
         }];
     </script>
 
