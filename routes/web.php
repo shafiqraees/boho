@@ -17,7 +17,7 @@ use App\Http\Controllers\UserController;
 */
 Route::group(['middleware' => ['auth'], ], function () {
     Route::get('/stats', [StatsController::class, 'stats']);
-    Route::get('/', [PagesController::class,'index'])->name('home');
+    Route::get('/', [PlayersController::class,'player'])->name('home');
     Route::get('/demo', [PagesController::class,'demo']);
 
 

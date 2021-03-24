@@ -1,4 +1,5 @@
-{{-- Subheader --}}
+{{-- Subheader --}}{{--
+
 <div class="subheader pt-2 pb-2 {{ Metronic::printClasses('subheader', false) }}" id="kt_subheader">
     <div class="{{ Metronic::printClasses('subheader-container', false) }} d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
         <div class="d-flex align-items-center flex-wrap mr-2">
@@ -95,3 +96,4 @@
         </div>
     </div>
 </div>
+--}}

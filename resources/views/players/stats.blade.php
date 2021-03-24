@@ -124,8 +124,8 @@
                         <div class="card mb-4 mt-2">
 
                             <div class="card-header">
-                                <i class="fas fa-chart-bar mr-1"></i>
-                                Stats Bar Chart
+                                {{--<i class="fas fa-chart-bar mr-1"></i>
+                                Stats Bar Chart--}}
 
                                 <a href="{{request()->fullUrlWithQuery(['CSV' => 'YES']) }}" class="btn btn-primary btn-sm float-right" target="_blank" >
                                     Download CSV

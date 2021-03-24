@@ -19,7 +19,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <title>gamearound | Login</title>
     <meta name="description" content="Login page example" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="canonical" href="https://keenthemes.com/metronic" />
+
     <!--begin::Fonts-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
     <!--end::Fonts-->
@@ -37,7 +37,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <link href="{{ asset('css/themes/layout/brand/dark.css') }}" rel="stylesheet" type="text/css"/>
     <link href="{{ asset('css/themes/layout/aside/dark.css') }}" rel="stylesheet" type="text/css"/>
     <!--end::Layout Themes-->
-    <link rel="shortcut icon" href="{{asset('media/logos/favicon.ico')}}" />
+
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -199,16 +199,12 @@ License: You must have a valid license purchased only from themeforest(the above
         </div>
         <!--begin::Aside-->
         <!--begin::Content-->
-        <div class="content order-1 order-lg-2 d-flex flex-column w-100 pb-0" style="background-color: #B1DCED;">
+        <div class="content order-1 order-lg-2 d-flex flex-column w-100 pb-0" style="padding: 0px;">
             <!--begin::Title-->
-            <div class="d-flex flex-column justify-content-center text-center pt-lg-40 pt-md-5 pt-sm-5 px-lg-0 pt-5 px-7">
-                <h3 class="display4 font-weight-bolder my-7 text-dark" style="color: #986923;">Amazing Wireframes</h3>
-                <p class="font-weight-bolder font-size-h2-md font-size-lg text-dark opacity-70">User Experience &amp; Interface Design, Product Strategy
-                    <br />Web Application SaaS Solutions</p>
-            </div>
+
             <!--end::Title-->
             <!--begin::Image-->
-            <div class="content-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-bottom bgi-position-x-center" style="background-image: url({{asset('media/svg/illustrations/login-visual-2.svg')}});"></div>
+            <div class="content-img d-flex flex-row-fluid bgi-no-repeat bgi-position-y-bottom bgi-position-x-center" style="background-image: url({{asset('media/logos/bg_admin23445.png')}});"></div>
             <!--end::Image-->
         </div>
         <!--end::Content-->

@@ -1,4 +1,5 @@
-{{-- Subheader --}}
+{{-- Subheader --}}{{--
+
 <div class="subheader pt-2 pb-2 {{ Metronic::printClasses('subheader', false) }}" id="kt_subheader">
     <div class="{{ Metronic::printClasses('subheader-container', false) }} d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
         <div class="d-flex align-items-center flex-wrap mr-2">
@@ -25,7 +26,9 @@
                 <a href="#" class="btn btn-light btn-sm font-weight-bold mr-2" id="kt_dashboard_daterangepicker" data-toggle="tooltip" title="Select dashboard daterange" data-placement="left">
                     <span class="text-muted font-weight-bold" id="kt_dashboard_daterangepicker_title">Today</span>&nbsp;
                     <span class="text-primary font-weight-bold" id="kt_dashboard_daterangepicker_date">Aug 16</span>
-                    {{--<i class="flaticon2-calendar-1"></i>--}}
+                    --}}
+{{--<i class="flaticon2-calendar-1"></i>--}}{{--
+
                     {{ Metronic::getSVG("media/svg/icons/Communication/Chat-check.svg", "svg-icon-sm svg-icon-primary ml-1") }}
                 </a>
             @endif
@@ -91,3 +94,4 @@
         </div>
     </div>
 </div>
+--}}
